@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-mapsindoors-typescript",
+  "version": "1.0.0",
+  "description": "ESLint shareable config used in MapsIndoors TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MapsPeople/eslint-config-mapsindoors-typescript.git"
+  },
+  "author": "MapsPeople",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MapsPeople/eslint-config-mapsindoors-typescript/issues"
+  },
+  "homepage": "https://github.com/MapsPeople/eslint-config-mapsindoors-typescript#readme",
+  "dependencies": {
+    "eslint-config-mapsindoors": "git+https://github.com/MapsPeople/eslint-config-mapsindoors.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4",
+    "@typescript-eslint/eslint-plugin": "^1.13.0"
+  }
+}
