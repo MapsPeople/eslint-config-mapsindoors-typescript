@@ -2,6 +2,7 @@ module.exports = {
     extends: [
         "eslint-config-mapsindoors"
     ],
+    plugins: ["@typescript-eslint"],
     rules: {
         "@typescript-eslint/no-parameter-properties": 0,
         "@typescript-eslint/explicit-member-accessibility": 0,
