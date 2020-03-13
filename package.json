@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mapsindoors-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint shareable config used in MapsIndoors TypeScript projects",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "peerDependencies": {
     "eslint": ">= 4",
-    "@typescript-eslint/eslint-plugin": "^1.13.0"
+    "@typescript-eslint/eslint-plugin": "^2.23.0"
   }
 }
