@@ -9,11 +9,11 @@ Extends [eslint-config-mapsindoors](https://github.com/MapsPeople/eslint-config-
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-npm install --save @mapsindoors/eslint-config
+npm install --save @mapsindoors/eslint-config-typescript
 ```
 
 Install with [yarn](https://yarnpkg.com):
 
 ```sh
-yarn add @mapsindoors/eslint-config
+yarn add @mapsindoors/eslint-config-typescript
 ```
