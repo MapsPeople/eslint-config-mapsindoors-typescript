@@ -18,7 +18,7 @@ jobs:
           scope: '@mapsindoors'
       - run: echo "TAG=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
       - run: npm ci
-      - run: npm version --no-git-tag-version ${{ env.TAG }}
+      - run: npm version --no-git-tag-version --allow-same-version ${{ env.TAG }}
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
