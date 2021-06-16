@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "eslint-config-mapsindoors"
+        "@mapsindoors/eslint-config"
     ],
     plugins: ["@typescript-eslint"],
     rules: {
