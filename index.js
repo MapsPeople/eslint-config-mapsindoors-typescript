@@ -2,13 +2,21 @@ module.exports = {
     extends: [
         "@mapsindoors/eslint-config"
     ],
-    plugins: ["@typescript-eslint"],
+    plugins: [
+        "@typescript-eslint",
+        "react"
+    ],
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true
+        }
+    },
     rules: {
-        "@typescript-eslint/no-parameter-properties": 0,
-        "@typescript-eslint/explicit-member-accessibility": 0,
-        "@typescript-eslint/explicit-function-return-type": [1, { "allowExpressions": true }],
-        "no-unused-vars": 0,
-        "no-undef": 0,
-        "@typescript-eslint/no-unused-vars": 2
+        "@typescript-eslint/no-parameter-properties": "off",
+        "@typescript-eslint/explicit-member-accessibility": "off", // Public or private
+        "@typescript-eslint/explicit-function-return-type": "warn", // : Void as return type on functions without
+        "@typescript-eslint/type-annotation-spacing": "warn", // Consistent spacing around type annotations
+        "react/jsx-curly-spacing": ["error", "never"], // Disallow spaces inside of curly braces in JSX attributes
+        "react/jsx-equals-spacing": ["error", "never"] // Disallow spaces around equal signs in JSX attributes
     }
 };
