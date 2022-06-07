@@ -10,8 +10,8 @@
   "author": "MapsPeople A/S",
   "license": "MIT",
   "peerDependencies": {
-    "@mapsindoors/eslint-config": "^1.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@mapsindoors/eslint-config": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
     "eslint": ">= 4",
     "eslint-plugin-react": "^7.27.1"
   }
